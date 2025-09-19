@@ -67,11 +67,11 @@ The main scene shows both characters in a vibrant blue environment with smooth a
 
 A themed Pong clone set in an underwater world, featuring fish paddles and bubble balls for an immersive aquatic gaming experience.
 
-![Underwater Pong Screenshot](pong/UnderwaterPong.png)
-
 ## 🎮 Game Overview
 
 This is a classic Pong game reimagined with an underwater theme. Players control fish paddles to hit a bubble ball back and forth in an aquatic environment. The game features both two-player and single-player modes with smooth animations and engaging underwater visuals.
+
+![Underwater Pong Screenshot](pong/pong.png)
 
 ## 🌊 Theme & Visuals
 
@@ -141,7 +141,6 @@ This is a classic Pong game reimagined with an underwater theme. Players control
    - Multi-Ball: 2 (two bubbles) / 3 (three bubbles)
 4. **Objective**: Keep the bubbles from passing your fish paddle
 5. **Win Condition**: Game ends when bubble reaches screen edge
-
 
 ## 🎬 Gameplay Video
 
