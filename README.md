@@ -59,4 +59,4 @@ Simple2DScene/
 
 The main scene shows both characters in a vibrant blue environment with smooth animations and engaging visual effects.
 
-![Simple 2D Scene Screenshot](Simple2DScene.png)
+![Simple 2D Scene Screenshot](Simple2DScene/Simple2DScene.png)
