@@ -67,11 +67,11 @@ The main scene shows both characters in a vibrant blue environment with smooth a
 
 A themed Pong clone set in an underwater world, featuring fish paddles and bubble balls for an immersive aquatic gaming experience.
 
+![Underwater Pong Screenshot](pong/UnderwaterPong.png)
+
 ## 🎮 Game Overview
 
 This is a classic Pong game reimagined with an underwater theme. Players control fish paddles to hit a bubble ball back and forth in an aquatic environment. The game features both two-player and single-player modes with smooth animations and engaging underwater visuals.
-
-![Underwater Pong Screenshot](pong/pong.png)
 
 ## 🌊 Theme & Visuals
 
@@ -109,7 +109,27 @@ This is a classic Pong game reimagined with an underwater theme. Players control
 4. **Mode Switching**: Toggle between 2-player and 1-player modes anytime
 5. **Collision Physics**: Realistic bounce mechanics for engaging gameplay
 
-## 🚀 How to Play
+## 🚀 How to Run
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/2D-Games.git
+   cd 2D-Games/pong
+   ```
+
+2. **Open in Xcode**:
+   - Open `PongProject.xcodeproj` in Xcode
+   - Ensure you have the necessary OpenGL and SDL2 frameworks linked
+
+3. **Build and Run**:
+   - Press the "Play" button in Xcode or use Cmd+R
+   - The game window will launch
+
+4. **System Requirements**:
+   - macOS with Xcode installed
+   - OpenGL and SDL2 frameworks
+
+## 🎮 How to Play
 
 1. **Start the Game**: Launch the application to begin
 2. **Choose Mode**: 
@@ -122,9 +142,10 @@ This is a classic Pong game reimagined with an underwater theme. Players control
 4. **Objective**: Keep the bubbles from passing your fish paddle
 5. **Win Condition**: Game ends when bubble reaches screen edge
 
+
 ## 🎬 Gameplay Video
 
-[Watch Gameplay Demo](your-video-link-here)
+[Watch Gameplay Demo](https://github.com/user-attachments/assets/ab133e9e-93b6-41e1-b1ab-8e8a9b3d9037)
 
 ## 🛠️ Technical Details
 
@@ -155,4 +176,4 @@ This is a classic Pong game reimagined with an underwater theme. Players control
 
 ---
 
-*An underwater twist on the classic Pong game*
+
