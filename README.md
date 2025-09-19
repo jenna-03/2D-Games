@@ -293,4 +293,146 @@ This is a classic Lunar Lander game where players pilot a spacecraft through a c
 
 -------------------------------------------------------------------------------------
 
+# Rise of the AI
+
+A multi-level platformer adventure featuring intelligent AI enemies, scrolling environments, and challenging gameplay across three progressive levels.
+
+## 🎮 Game Overview
+
+Rise of the AI is a side-scrolling platformer where players navigate through three increasingly challenging levels while avoiding various types of AI enemies. With a classic lives system and progressive difficulty, players must use skill and strategy to complete their mission and reach the final victory.
+
+## 🤖 Theme & Visuals
+
+- **AI Enemies**: Multiple types of intelligent enemies with different movement patterns
+- **Scrolling Levels**: Expansive side-scrolling environments to explore
+- **Progressive Difficulty**: Each level introduces new challenges and obstacles
+- **Dynamic Environments**: Varied platforming sections with unique layouts
+- **Immersive Audio**: Background music and sound effects enhance the experience
+
+## ✨ Features
+
+### Core Gameplay
+- **Menu System**: Welcome screen with game start functionality
+- **Three Levels**: Progressive difficulty across multiple scrolling environments
+- **Lives System**: Three lives across the entire game for added challenge
+- **AI Opponents**: Multiple enemy types with distinct behaviors:
+  - Guards with patrol patterns
+  - Walkers with ground-based movement
+  - Flyers with aerial navigation
+- **Audio Experience**: Looping background music and interactive sound effects
+
+### Technical Implementation
+- **Scene Management**: Separate scene objects for menu and game levels
+- **Entity System**: Robust entity-based architecture for all game objects
+- **Map System**: Tilemap-based level design with collision detection
+- **Fixed Time Steps**: Consistent physics and animation timing
+- **Delta Time**: Smooth, frame-rate independent movement
+- **Collision Detection**: Precise player-enemy and player-environment interactions
+
+## 🎯 Gameplay Mechanics
+
+1. **Platforming Movement**: Navigate through scrolling levels with jumping and movement
+2. **AI Encounters**: Avoid different types of enemies with unique behaviors
+3. **Lives Management**: Careful play required with limited three-life system
+4. **Level Progression**: Complete three levels of increasing difficulty
+5. **Victory/Defeat**: Clear endgame states for winning or losing
+6. **Audio Feedback**: Sound effects for actions like jumping and collisions
+
+## 🚀 How to Run
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/2D-Games.git
+   cd 2D-Games/rise-of-the-ai
+   ```
+
+2. **Open in Xcode**:
+   - Open `SDLProject.xcodeproj` in Xcode
+   - Ensure you have the necessary OpenGL and SDL2 frameworks linked
+
+3. **Build and Run**:
+   - Press the "Play" button in Xcode or use Cmd+R
+   - The game window will launch with the menu screen
+
+4. **System Requirements**:
+   - macOS with Xcode installed
+   - OpenGL and SDL2 frameworks
+
+## 🎮 How to Play
+
+1. **Start the Game**: Press Enter on the menu screen to begin
+2. **Controls**:
+   - Arrow Keys: Move left/right and jump
+   - Navigate through scrolling levels
+   - Avoid all AI enemies to survive
+3. **Objective**: 
+   - Complete all three levels without losing all lives
+   - Avoid touching any AI enemies
+   - Reach the end of the final level to win
+4. **Lives System**: You have 3 lives for the entire game
+5. **Win Condition**: Successfully complete all three levels
+6. **Lose Condition**: Run out of lives by touching enemies
+
+## 📸 Level Screenshots
+
+### Level 1
+![Level 1 Screenshot](rise-of-the-ai/level1-screenshot.png)
+
+### Level 2
+![Level 2 Screenshot](rise-of-the-ai/level2-screenshot.png)
+
+### Level 3
+![Level 3 Screenshot](rise-of-the-ai/level3-screenshot.png)
+
+## 🎬 Gameplay Video
+
+[Watch Gameplay Demo](your-video-link-here)
+
+## 🛠️ Technical Details
+
+- **Graphics**: OpenGL rendering with custom sprite assets
+- **Audio**: SDL2 sound system with music and effect management
+- **Physics**: Custom platformer physics with gravity and collision
+- **AI Systems**: Multiple enemy behavior patterns and movement algorithms
+- **Level Design**: Scrolling tilemap system with collision boundaries
+- **Scene Management**: State-based scene transitions and management
+- **Input Handling**: Responsive keyboard controls for movement and menu navigation
+
+## 📂 Project Structure
+
+```
+2D-Games/
+├── rise-of-the-ai/          # Rise of the AI game folder
+│   ├── menu-screenshot.png  # Menu screen image
+│   ├── level1-screenshot.png # Level 1 gameplay image
+│   ├── level2-screenshot.png # Level 2 gameplay image
+│   ├── level3-screenshot.png # Level 3 gameplay image
+│   ├── assets/              # Game assets (sprites, audio, maps)
+│   ├── glm/                 # OpenGL Mathematics library
+│   ├── shaders/             # GLSL shader files
+│   ├── SDLProject.xcodeproj # Xcode project file
+│   ├── SDLProject/          # Source code folder
+│   │   ├── Entity.cpp/.h    # Entity class implementation
+│   │   ├── Map.cpp/.h       # Tilemap system
+│   │   ├── Scene.cpp/.h     # Scene management
+│   │   ├── LevelA.cpp/.h    # Level A implementation
+│   │   ├── LevelB.cpp/.h    # Level B implementation
+│   │   ├── LevelC.cpp/.h    # Level C implementation
+│   │   ├── Menu.cpp/.h      # Menu scene
+│   │   └── [Additional game files...]
+│   └── README.md           # Game documentation
+└── README.md               # Main project documentation
+```
+
+## 🌟 Advanced Features
+
+- **Multiple AI Types**: Each enemy type offers unique challenge patterns
+- **Scrolling Environments**: Expansive levels that extend beyond single screens
+- **Progressive Difficulty**: Thoughtfully designed level progression
+- **Audio Integration**: Immersive sound design with music and effects
+- **Lives Management**: Strategic gameplay with limited life system
+
+---
+
+
 
