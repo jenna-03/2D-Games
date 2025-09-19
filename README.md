@@ -1,3 +1,9 @@
+# 2D-Games
+
+A collection of 2D games developed using C++ and OpenGL, showcasing progressive game development skills and various gameplay mechanics. This repository contains five distinct games built with modern graphics programming techniques, each exploring different genres and technical challenges.
+
+----------------------------------------------
+
 # Simple 2D Scene
 
 ## 📝 Project Overview
@@ -434,7 +440,6 @@ Rise of the AI is a side-scrolling platformer where players navigate through thr
 
 ------------------------------------------------------------------------
 
-
 # Wizard Warrior
 
 ## 🧙 Game Overview
@@ -518,17 +523,17 @@ Wizard Warrior is a platform fighter where players control a powerful wizard bat
 ## 📸 Level Screenshots
 
 ### Level 1
-![Level 1 Screenshot](wizard-warrior/level1-screenshot.png)
+![Level 1 Screenshot](wizard-warrior/lv1-wizard.png)
 
 ### Level 2
-![Level 2 Screenshot](wizard-warrior/level2-screenshot.png)
+![Level 2 Screenshot](wizard-warrior/lv2-wizard.png)
 
 ### Level 3
-![Level 3 Screenshot](wizard-warrior/level3-screenshot.png)
+![Level 3 Screenshot](wizard-warrior/lv3-wizard.png)
 
 ## 🎬 Gameplay Video
 
-[Watch Gameplay Demo](your-video-link-here)
+[Watch Gameplay Demo](https://github.com/user-attachments/assets/4265c846-fbbb-42f2-a944-42230e11ca4d)
 
 ## 🛠️ Technical Details
 
@@ -546,9 +551,9 @@ Wizard Warrior is a platform fighter where players control a powerful wizard bat
 2D-Games/
 ├── wizard-warrior/          # Wizard Warrior game folder
 │   ├── menu-screenshot.png  # Menu screen image
-│   ├── level1-screenshot.png # Level 1 combat arena
-│   ├── level2-screenshot.png # Level 2 combat arena
-│   ├── level3-screenshot.png # Level 3 combat arena
+│   ├── lv1-wizard.png # Level 1 combat arena
+│   ├── lv2-wizard.png # Level 2 combat arena
+│   ├── lv3-wizard.png # Level 3 combat arena
 │   ├── assets/              # Game assets (sprites, audio, effects)
 │   ├── glm/                 # OpenGL Mathematics library
 │   ├── shaders/             # GLSL shader files for lighting effects
