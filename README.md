@@ -257,7 +257,7 @@ This is a classic Lunar Lander game where players pilot a spacecraft through a c
 
 ## 🎬 Gameplay Video
 
-[Watch Gameplay Demo](your-video-link-here)
+[Watch Gameplay Demo](https://github.com/user-attachments/assets/66276f9c-349b-4042-b8b4-82652b4c2a99)
 
 ## 🛠️ Technical Details
 
@@ -291,8 +291,6 @@ This is a classic Lunar Lander game where players pilot a spacecraft through a c
 - **Moving Platforms**: Dynamic landing targets that add extra challenge
 - **Physics Accuracy**: Realistic space flight simulation with momentum conservation
 
----
-
-*Navigate the challenges of space and achieve a perfect lunar landing*
+-------------------------------------------------------------------------------------
 
 
