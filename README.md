@@ -173,6 +173,126 @@ This is a classic Pong game reimagined with an underwater theme. Players control
 └── README.md               # Main project documentation
 ```
 
+----------------------------------------------------------
+
+# Lunar Lander
+
+A physics-based space landing game featuring realistic gravity simulation, fuel management, and precision piloting challenges.
+
+## 🚀 Game Overview
+
+This is a classic Lunar Lander game where players pilot a spacecraft through a challenging landing sequence. Navigate using thruster controls while managing limited fuel and fighting against gravity to achieve a successful landing on designated platforms.
+
+![Lunar Lander Screenshot](lunar-lander/lunar-lander.png)
+
+## 🌌 Theme & Visuals
+
+- **Space Environment**: Atmospheric space-themed background and terrain
+- **Spacecraft**: Detailed player-controlled lander with thruster effects
+- **Landing Platforms**: Strategic landing zones for mission completion
+- **Realistic Physics**: Gravity and momentum simulation for authentic flight dynamics
+- **Mission UI**: Clear feedback for mission status and fuel levels
+
+## ✨ Features
+
+### Core Gameplay
+- **Physics-Based Movement**: Realistic gravity affects the spacecraft continuously
+- **Acceleration Controls**: 
+  - Left/Right arrow keys for horizontal thrust
+  - Thruster input changes acceleration, not direct velocity
+  - Momentum and drift mechanics for realistic space flight
+- **Fuel Management**: Limited fuel supply that depletes with thruster use
+- **Mission Objectives**: Land safely on designated platforms to win
+- **Collision Detection**: Crash detection for failed landing attempts
+
+### Technical Implementation
+- **Entity Class System**: Object-oriented design with reusable entity components
+- **Fixed Time Steps**: Consistent physics simulation regardless of frame rate
+- **Delta Time Animation**: Smooth, frame-rate independent movement
+- **Acceleration-Based Physics**: Realistic momentum and drift mechanics
+- **State Management**: Game state tracking for win/loss conditions
+
+## 🎯 Gameplay Mechanics
+
+1. **Gravity Physics**: Spacecraft continuously falls due to simulated lunar gravity
+2. **Thruster Control**: Use arrow keys to apply acceleration forces
+3. **Momentum System**: Ship drifts when thrusters are released
+4. **Fuel Consumption**: Each thruster activation consumes precious fuel
+5. **Landing Challenge**: Touch down gently on landing platforms to succeed
+6. **Mission Failure**: Crashing into terrain or obstacles ends the mission
+
+## 🚀 How to Run
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/2D-Games.git
+   cd 2D-Games/lunar-lander
+   ```
+
+2. **Open in Xcode**:
+   - Open `lunar-lander.xcodeproj` in Xcode
+   - Ensure you have the necessary OpenGL and SDL2 frameworks linked
+
+3. **Build and Run**:
+   - Press the "Play" button in Xcode or use Cmd+R
+   - The game window will launch
+
+4. **System Requirements**:
+   - macOS with Xcode installed
+   - OpenGL and SDL2 frameworks
+
+## 🎮 How to Play
+
+1. **Start the Game**: Launch the application to begin your landing mission
+2. **Controls**:
+   - Left Arrow: Fire left thruster (move right)
+   - Right Arrow: Fire right thruster (move left)
+   - Monitor your fuel gauge carefully
+3. **Objective**: 
+   - Navigate to a landing platform
+   - Land gently without crashing
+   - Manage fuel consumption efficiently
+4. **Win Condition**: Successfully touch down on a designated landing platform
+5. **Lose Condition**: Crash into terrain or run out of fuel before landing
+
+## 🎬 Gameplay Video
+
+[Watch Gameplay Demo](your-video-link-here)
+
+## 🛠️ Technical Details
+
+- **Graphics**: OpenGL rendering with texture mapping
+- **Physics**: Custom gravity and acceleration systems
+- **Input**: SDL2 keyboard event handling for thruster controls
+- **Architecture**: Entity-based design with modular components
+- **Collision**: Precise collision detection for landing and crash scenarios
+- **Game Logic**: State machine for mission success/failure handling
+
+## 📂 Project Structure
+
+```
+2D-Games/
+├── lunar-lander/            # Lunar Lander game folder
+│   ├── lunar-lander-screenshot.png # Game screenshot
+│   ├── assets/              # Game textures and sprites
+│   │   ├── spacecraft.png   # Player ship sprite
+│   │   ├── platform.png     # Landing platform texture
+│   │   ├── background.png   # Space background
+│   │   └── font.png         # UI text font
+│   ├── lunar-lander.xcodeproj # Xcode project file
+│   ├── lunar-lander/        # Source code folder
+│   └── README.md           # Game documentation
+└── README.md               # Main project documentation
+```
+
+## 🌟 Advanced Features
+
+- **Fuel UI Display**: Real-time fuel gauge showing remaining thruster power
+- **Moving Platforms**: Dynamic landing targets that add extra challenge
+- **Physics Accuracy**: Realistic space flight simulation with momentum conservation
+
 ---
+
+*Navigate the challenges of space and achieve a perfect lunar landing*
 
 
