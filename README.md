@@ -432,6 +432,148 @@ Rise of the AI is a side-scrolling platformer where players navigate through thr
 - **Audio Integration**: Immersive sound design with music and effects
 - **Lives Management**: Strategic gameplay with limited life system
 
+------------------------------------------------------------------------
+
+
+# Wizard Warrior
+
+## 🧙 Game Overview
+
+Wizard Warrior is a platform fighter where players control a powerful wizard battling through three levels of increasingly dangerous enemies. Using magical attacks and strategic positioning, players must defeat all AI opponents in each level to progress. The game features dynamic lighting systems and intense combat mechanics in a fantasy setting.
+
+## ⚡ Theme & Visuals
+
+- **Fantasy Combat**: Magical wizard protagonist with spell-casting abilities
+- **Platform Fighting**: Combat-focused platformer with enemy engagement
+- **Dynamic Lighting**: Spotlight system that can be toggled for atmospheric effects
+- **Progressive Difficulty**: Each level introduces more challenging AI opponents
+- **Magical Effects**: Spell-based attacks and visual effects enhance the combat experience
+
+## ✨ Features
+
+### Core Gameplay
+- **Menu System**: Welcome screen with game start functionality
+- **Three Combat Levels**: Progressive difficulty across multiple battle arenas
+- **Platform Fighter Mechanics**: Combat-focused gameplay with attacking AI enemies
+- **Magical Combat System**: Multiple attack directions using shift combinations
+- **AI Opponents**: Intelligent enemies that attack when players get too close
+- **Dynamic Lighting**: Toggleable spotlight system for atmospheric control
+- **Audio Experience**: Immersive background music and combat sound effects
+
+### Technical Implementation
+- **Scene Management**: Separate scene objects for menu and combat levels
+- **Entity System**: Robust entity-based architecture for all game objects
+- **Map System**: Combat arena design with strategic positioning elements
+- **Shader Logic**: Dynamic lighting effects with conditional shader programming
+- **Fixed Time Steps**: Consistent physics and animation timing
+- **Delta Time**: Smooth, frame-rate independent movement and combat
+- **Collision Detection**: Precise player-enemy and spell-target interactions
+
+## 🎯 Gameplay Mechanics
+
+1. **Combat Movement**: Navigate platform arenas while engaging enemy AI
+2. **Spell Casting**: Use directional attacks to defeat enemies from multiple angles
+3. **AI Encounters**: Enemies actively pursue and attack the player when in range
+4. **Level Progression**: Defeat all enemies in each level to advance
+5. **Environmental Control**: Toggle spotlight effects for tactical advantage
+6. **Victory Condition**: Clear all three levels by defeating every AI opponent
+
+## 🚀 How to Run
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/2D-Games.git
+   cd 2D-Games/wizard-warrior
+   ```
+
+2. **Open in Xcode**:
+   - Open `SDLProject.xcodeproj` in Xcode
+   - Ensure you have the necessary OpenGL and SDL2 frameworks linked
+
+3. **Build and Run**:
+   - Press the "Play" button in Xcode or use Cmd+R
+   - The game window will launch with the menu screen
+
+4. **System Requirements**:
+   - macOS with Xcode installed
+   - OpenGL and SDL2 frameworks
+
+## 🎮 How to Play
+
+1. **Start the Game**: Press Enter on the menu screen to begin
+2. **Controls**:
+   - Arrow Keys: Move left/right and jump
+   - Up + Right Shift: Cast spell upward
+   - Down + Right Shift: Cast spell downward
+   - Right Shift: Cast spell horizontally
+   - L Key: Toggle spotlight on/off
+3. **Objective**: 
+   - Defeat all AI enemies in each level
+   - Use magical attacks strategically to overcome opponents
+   - Complete all three levels to win the game
+4. **Combat Strategy**: Enemies attack when you get too close - maintain distance and use spells
+5. **Win Condition**: Successfully defeat all enemies across all three levels
+6. **Lose Condition**: Being defeated by enemy AI attacks
+
+## 📸 Level Screenshots
+
+### Level 1
+![Level 1 Screenshot](wizard-warrior/level1-screenshot.png)
+
+### Level 2
+![Level 2 Screenshot](wizard-warrior/level2-screenshot.png)
+
+### Level 3
+![Level 3 Screenshot](wizard-warrior/level3-screenshot.png)
+
+## 🎬 Gameplay Video
+
+[Watch Gameplay Demo](your-video-link-here)
+
+## 🛠️ Technical Details
+
+- **Graphics**: OpenGL rendering with custom fantasy-themed assets
+- **Audio**: SDL2 sound system with magical combat effects and atmospheric music
+- **Combat Physics**: Spell projectile systems with collision detection
+- **AI Systems**: Proximity-based enemy behavior and attack patterns
+- **Lighting System**: Dynamic spotlight effects with shader-based implementation
+- **Scene Management**: State-based transitions between menu and combat levels
+- **Input Handling**: Multi-key combination system for directional spell casting
+
+## 📂 Project Structure
+
+```
+2D-Games/
+├── wizard-warrior/          # Wizard Warrior game folder
+│   ├── menu-screenshot.png  # Menu screen image
+│   ├── level1-screenshot.png # Level 1 combat arena
+│   ├── level2-screenshot.png # Level 2 combat arena
+│   ├── level3-screenshot.png # Level 3 combat arena
+│   ├── assets/              # Game assets (sprites, audio, effects)
+│   ├── glm/                 # OpenGL Mathematics library
+│   ├── shaders/             # GLSL shader files for lighting effects
+│   ├── SDLProject.xcodeproj # Xcode project file
+│   ├── SDLProject/          # Source code folder
+│   │   ├── Effects.cpp/.h   # Special effects implementation
+│   │   ├── Entity.cpp/.h    # Entity class implementation
+│   │   ├── Map.cpp/.h       # Arena/level system
+│   │   ├── Scene.cpp/.h     # Scene management
+│   │   ├── LevelA.cpp/.h    # Combat Level A
+│   │   ├── LevelB.cpp/.h    # Combat Level B
+│   │   ├── LevelC.cpp/.h    # Combat Level C
+│   │   ├── Menu.cpp/.h      # Menu scene
+│   │   └── [Additional game files...]
+│   └── README.md           # Game documentation
+└── README.md               # Main project documentation
+```
+
+## 🌟 Advanced Features
+
+- **Directional Combat**: Multi-directional spell casting system with combination controls
+- **Intelligent AI**: Proximity-based enemy behavior that creates dynamic combat encounters
+- **Dynamic Lighting**: Shader-based spotlight system that affects gameplay atmosphere
+- **Platform Fighter Design**: Combat-focused level design optimized for magical battles
+
 ---
 
 
