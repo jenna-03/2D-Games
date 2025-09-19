@@ -273,7 +273,7 @@ This is a classic Lunar Lander game where players pilot a spacecraft through a c
 ```
 2D-Games/
 ├── lunar-lander/            # Lunar Lander game folder
-│   ├── lunar-lander-screenshot.png # Game screenshot
+│   ├── lunar-lander.png # Game screenshot
 │   ├── assets/              # Game textures and sprites
 │   │   ├── spacecraft.png   # Player ship sprite
 │   │   ├── platform.png     # Landing platform texture
@@ -376,17 +376,17 @@ Rise of the AI is a side-scrolling platformer where players navigate through thr
 ## 📸 Level Screenshots
 
 ### Level 1
-![Level 1 Screenshot](rise-of-the-ai/level1-screenshot.png)
+![Level 1 Screenshot](rise-of-the-ai/lv1-platform.png)
 
 ### Level 2
-![Level 2 Screenshot](rise-of-the-ai/level2-screenshot.png)
+![Level 2 Screenshot](rise-of-the-ai/lv2-platform.png)
 
 ### Level 3
-![Level 3 Screenshot](rise-of-the-ai/level3-screenshot.png)
+![Level 3 Screenshot](rise-of-the-ai/lv3-platform.png)
 
 ## 🎬 Gameplay Video
 
-[Watch Gameplay Demo](your-video-link-here)
+[Watch Gameplay Demo](https://github.com/user-attachments/assets/a7fe182e-6265-4dfd-a23b-6f7bfed4cb07)
 
 ## 🛠️ Technical Details
 
@@ -404,9 +404,9 @@ Rise of the AI is a side-scrolling platformer where players navigate through thr
 2D-Games/
 ├── rise-of-the-ai/          # Rise of the AI game folder
 │   ├── menu-screenshot.png  # Menu screen image
-│   ├── level1-screenshot.png # Level 1 gameplay image
-│   ├── level2-screenshot.png # Level 2 gameplay image
-│   ├── level3-screenshot.png # Level 3 gameplay image
+│   ├── lv1-platform.png # Level 1 gameplay image
+│   ├── lv2-platform.png # Level 2 gameplay image
+│   ├── lv3-platform.png # Level 3 gameplay image
 │   ├── assets/              # Game assets (sprites, audio, maps)
 │   ├── glm/                 # OpenGL Mathematics library
 │   ├── shaders/             # GLSL shader files
